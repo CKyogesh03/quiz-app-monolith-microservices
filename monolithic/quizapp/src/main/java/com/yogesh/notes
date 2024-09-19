@@ -1,0 +1,10 @@
+
+// to find the right answers of quiz set 2. id - denotes question id, right_answer denotes answers
+//sql query
+select id,right_answer from question
+where id in (11,1,2,5,6);
+
+// sending option like a,b,c,d (or) original answer data to back end
+sending original answer with question id is preferred. bcoz if the options are shuffled randomly for every user then comparing with option is no use.
+so compare question with answer.
+fetch original answer by question id then compare original answer with submitted answer.

@@ -1,0 +1,21 @@
+id,category,difficulty_level,option1,option2,option3,option4,question_title,right_answer
+1,java,easy,"normal method","initialize object",block,keyword,"what is constructor ?","initialize object"
+2,java,easy,"programming language","speaking language","writing language","interacting language","what is java ?","programming language"
+3,sql,easy,"structured query language","sequence query language","serial query language","syntax query language","what is SQL ?","structured query language"
+4,java,easy,"int[] myArray = new int[10];","int myArray[10];","int[] myArray = new int[10];","int myArray[10];","What is the correct way to declare an array in Java?","int[] myArray = new int[10];"
+5,java,easy,return,new,extends,super,"which keyword is used to inherit the peoperties and behaviour from parent?",extends
+6,java,medium,this,new,extends,super,"which keyword is used to access parent peoperties and behaviour?",super
+7,java,easy,public,private,protected,default,"which access modifier allow access from anywhere?",public
+8,java,easy,public,private,protected,default,"which access modifier allow access from same class only?",private
+9,java,easy,public,private,protected,default,"which access modifier allow access from same class and same package only?",default
+10,java,easy,public,private,protected,default,"which access modifier allow access from same class, same package and child from other package?",protected
+11,java,easy,mutable,immutable,updateable,changeable,"string in java is?",immutable
+12,sql,easy,"data definition language","data denoted language","data deleted language","data declared language",DDL?,"data definition language"
+13,sql,easy,"data definition language","data denoted language","data Manipulation language","data declared language",DML?,"data Manipulation language"
+14,sql,easy,"data definition language","data control language","data manipulation language","data declared language",DCL?,"data control language"
+15,sql,easy,"transaction control language","data control language","data manipulation language","transaction committes language",TCL?,"transaction control language"
+16,sql,easy,"transaction control language","data control language","data manipulation language","data query language",DQL?,"data query language"
+17,sql,easy,where,select,like,from,"keyword used to select columns in sql?",select
+18,sql,easy,where,select,like,from,"keyword used to filter the records in sql?",where
+19,sql,easy,where,select,like,from,"keyword used to select the table in sql?",from
+20,sql,easy,where,select,like,from,"keyword used to select the records based on pattern in sql?",like

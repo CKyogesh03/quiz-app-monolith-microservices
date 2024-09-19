@@ -1,0 +1,227 @@
+load this questions one by one in postman using save endpoint (or) create endpoint to send whole questions at single data.
+- create endpoint to load multiple questions
+
+json data:
+
+[
+    {
+        "id": 1,
+        "questionTitle": "what is constructor ?",
+        "option1": "normal method",
+        "option2": "initialize object",
+        "option3": "block",
+        "option4": "keyword",
+        "rightAnswer": "initialize object",
+        "difficultyLevel": "easy",
+        "category": "java"
+    },
+    {
+        "id": 2,
+        "questionTitle": "what is java ?",
+        "option1": "programming language",
+        "option2": "speaking language",
+        "option3": "writing language",
+        "option4": "interacting language",
+        "rightAnswer": "programming language",
+        "difficultyLevel": "easy",
+        "category": "java"
+    },
+    {
+        "id": 3,
+        "questionTitle": "what is SQL ?",
+        "option1": "structured query language",
+        "option2": "sequence query language",
+        "option3": "serial query language",
+        "option4": "syntax query language",
+        "rightAnswer": "structured query language",
+        "difficultyLevel": "easy",
+        "category": "sql"
+    },
+    {
+        "id": 4,
+        "questionTitle": "What is the correct way to declare an array in Java?",
+        "option1": "int[] myArray = new int[10];",
+        "option2": "int myArray[10];",
+        "option3": "int[] myArray = new int[10];",
+        "option4": "int myArray[10];",
+        "rightAnswer": "int[] myArray = new int[10];",
+        "difficultyLevel": "easy",
+        "category": "java"
+    },
+    {
+        "id": 5,
+        "questionTitle": "which keyword is used to inherit the peoperties and behaviour from parent?",
+        "option1": "return",
+        "option2": "new",
+        "option3": "extends",
+        "option4": "super",
+        "rightAnswer": "extends",
+        "difficultyLevel": "easy",
+        "category": "java"
+    },
+    {
+        "id": 6,
+        "questionTitle": "which keyword is used to access parent peoperties and behaviour?",
+        "option1": "this",
+        "option2": "new",
+        "option3": "extends",
+        "option4": "super",
+        "rightAnswer": "super",
+        "difficultyLevel": "medium",
+        "category": "java"
+    },
+    {
+        "id": 7,
+        "questionTitle": "which access modifier allow access from anywhere?",
+        "option1": "public",
+        "option2": "private",
+        "option3": "protected",
+        "option4": "default",
+        "rightAnswer": "public",
+        "difficultyLevel": "easy",
+        "category": "java"
+    },
+    {
+        "id": 8,
+        "questionTitle": "which access modifier allow access from same class only?",
+        "option1": "public",
+        "option2": "private",
+        "option3": "protected",
+        "option4": "default",
+        "rightAnswer": "private",
+        "difficultyLevel": "easy",
+        "category": "java"
+    },
+    {
+        "id": 9,
+        "questionTitle": "which access modifier allow access from same class and same package only?",
+        "option1": "public",
+        "option2": "private",
+        "option3": "protected",
+        "option4": "default",
+        "rightAnswer": "default",
+        "difficultyLevel": "easy",
+        "category": "java"
+    },
+    {
+        "id": 10,
+        "questionTitle": "which access modifier allow access from same class, same package and child from other package?",
+        "option1": "public",
+        "option2": "private",
+        "option3": "protected",
+        "option4": "default",
+        "rightAnswer": "protected",
+        "difficultyLevel": "easy",
+        "category": "java"
+    },
+    {
+        "id": 11,
+        "questionTitle": "string in java is?",
+        "option1": "mutable",
+        "option2": "immutable",
+        "option3": "updateable",
+        "option4": "changeable",
+        "rightAnswer": "immutable",
+        "difficultyLevel": "easy",
+        "category": "java"
+    },
+    {
+        "id": 12,
+        "questionTitle": "DDL?",
+        "option1": "data definition language",
+        "option2": "data denoted language",
+        "option3": "data deleted language",
+        "option4": "data declared language",
+        "rightAnswer": "data definition language",
+        "difficultyLevel": "easy",
+        "category": "sql"
+    },
+    {
+        "id": 13,
+        "questionTitle": "DML?",
+        "option1": "data definition language",
+        "option2": "data denoted language",
+        "option3": "data Manipulation language",
+        "option4": "data declared language",
+        "rightAnswer": "data Manipulation language",
+        "difficultyLevel": "easy",
+        "category": "sql"
+    },
+    {
+        "id": 14,
+        "questionTitle": "DCL?",
+        "option1": "data definition language",
+        "option2": "data control language",
+        "option3": "data manipulation language",
+        "option4": "data declared language",
+        "rightAnswer": "data control language",
+        "difficultyLevel": "easy",
+        "category": "sql"
+    },
+    {
+        "id": 15,
+        "questionTitle": "TCL?",
+        "option1": "transaction control language",
+        "option2": "data control language",
+        "option3": "data manipulation language",
+        "option4": "transaction committes language",
+        "rightAnswer": "transaction control language",
+        "difficultyLevel": "easy",
+        "category": "sql"
+    },
+    {
+        "id": 16,
+        "questionTitle": "DQL?",
+        "option1": "transaction control language",
+        "option2": "data control language",
+        "option3": "data manipulation language",
+        "option4": "data query language",
+        "rightAnswer": "data query language",
+        "difficultyLevel": "easy",
+        "category": "sql"
+    },
+    {
+        "id": 17,
+        "questionTitle": "keyword used to select columns in sql?",
+        "option1": "where",
+        "option2": "select",
+        "option3": "like",
+        "option4": "from",
+        "rightAnswer": "select",
+        "difficultyLevel": "easy",
+        "category": "sql"
+    },
+    {
+        "id": 18,
+        "questionTitle": "keyword used to filter the records in sql?",
+        "option1": "where",
+        "option2": "select",
+        "option3": "like",
+        "option4": "from",
+        "rightAnswer": "where",
+        "difficultyLevel": "easy",
+        "category": "sql"
+    },
+    {
+        "id": 19,
+        "questionTitle": "keyword used to select the table in sql?",
+        "option1": "where",
+        "option2": "select",
+        "option3": "like",
+        "option4": "from",
+        "rightAnswer": "from",
+        "difficultyLevel": "easy",
+        "category": "sql"
+    },
+    {
+        "id": 20,
+        "questionTitle": "keyword used to select the records based on pattern in sql?",
+        "option1": "where",
+        "option2": "select",
+        "option3": "like",
+        "option4": "from",
+        "rightAnswer": "like",
+        "difficultyLevel": "easy",
+        "category": "sql"
+    }
+]
